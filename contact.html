@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Community Learning Hub</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+    <a class="act" href="index.html">Home</a>
+    <a class="act" href="contact.html">Contact</a>
+    <a class="act" href="about.html">About</a>
+    </nav>
+    </header>
+
+<main class="container">
+     <section class="contact">
+    <h1 class="drek">Contact Us</h1>
+    <p class="fav">Have questions? Send us a message using the form below or social media.</p>
+
+    <h4 class="drek">Send a message</h4> 
+    <p class="fav">Fill in your name, email, and message, and we will get back to you soon.</p>
+    <form class="drek" >
+        <label class="drek">Name</label><br>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+        <label class="drek">Email</label><br>
+        <input type="email" name="email"placeholder="Enter your email"><br><br>
+
+        <label class="drek">Message</label><br>
+        <textarea name="message" rows="5" placeholder="Type your message here"></textarea><br><br>
+
+        <button type="submit" class="cat">send</button>
+    </form>
+    </section>
+    <div class="contact-info">
+        <h3>Other Ways To Reach Us</h3>
+        <p>Email: communityhub@gmail.com</p>
+        <p>Phone: +256 784 791552</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </p>
+    </div>
+    </main>
+   
+    <footer>
+        <p>&copy; <span id="year"></span>Community Learning Hub</p>
+    </footer>
+
+    <script>
+        function handleSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Your message has been receiving.');
+            document.getElementById('contactForm').reset();
+        }
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,344 @@
+.nav{
+    text-decoration: dotted;
+    padding: 20px;
+}
+.well{
+    text-align: center;
+    color: rgb(92, 61, 215);
+}
+.done{
+    text-align: center;
+}
+.drek{
+    text-align: center;
+    color: rgb(92, 61, 215);
+}
+.fav{
+    text-align: center;
+}
+.cat{
+    background-color: rgb(20, 115, 156);
+    color: rgb(48, 3, 3);
+    size: 20px;
+    width: 10%;
+    height: 60%;
+    border-style: double;
+    text-align: center;
+    text-size-adjust: initial;
+}
+.rat{
+    text-align: center;
+    color:  rgb(92, 61, 215);
+}
+.fert{
+    text-align: center;
+}
+.rare{
+    text-align: center;
+    padding: 20px;
+    text-decoration: dotted;
+}
+.act{
+    padding: 20px;
+    text-decoration: dotted;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+} 
+body {
+    background: whitesmoke;
+    color: rgb(44, 41, 41); 
+    line-height: 1.6;
+}
+
+header {
+    background: whitesmoke;
+    border-bottom: 2px solid white;
+    background: whitesmoke;
+    border-bottom: 2px solid white;
+}
+  
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.topnav a {
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.topnav a.active, .topnav a:hover {
+     color: darkblue;
+     text-decoration: underline;
+}
+
+.container {
+     width: 90%;
+     max-width: 1000px;
+     margin: 20px auto;
+}
+
+.card {
+     display: flex;
+      flex-wrap: wrap;
+       gap: 20px;
+        justify-content: center;
+         margin-top: 20px;
+}
+.card {background: white; border-radius: 8px ;padding: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); flex: 1 1 250px;}
+
+form {display: flex; flex-direction: column; gap: 10px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+input, textarea { padding: 10px; border: 1px solid white; border-radius: 4px;}
+button { background: rgb(111, 111, 207); color: wheat; padding: 10px; border: none; border-radius: 4px; cursor: pointer;}
+button:hover { background: #004a99;}
+
+.contact-info { margin-top: 20px;}
+
+footer {text-align: center; padding: 20px; background:rgb(248, 244, 244); margin-top: 30px;}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card { flex-direction: column;}
+}
+/* ======================== */
+/* Resources Section Styling */
+/* ========================= */
+.resources {
+    background-color: rgb(234, 165, 165); /* soft light-blue background */
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.resources h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.resources p {
+    color:rgba(236, 160, 160, 0.005);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+video{
+    width: 100%;
+}
+.resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources li {
+    margin: 8px 0;
+}
+
+.resources a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.826);
+    font-weight: bold;
+}
+
+.resources a:hover {
+    color: rgb(255, 98, 0);
+}
+
+/* ========================= */
+/* Join Us Section Styling */
+/* ========================= */
+.join {
+    background-color: rgb(255, 255, 255); /* soft green background */
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.join h2 {
+    color:rgb(4, 179, 4);
+    margin-bottom: 10px;
+}
+.join p {
+    color:rgba(246, 118, 118, 0.064);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.join button {
+    background-color: rgb(54, 172, 250);
+    color: wheat;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join button:hover {
+    background-color: rgb(0, 157, 255);
+}
+
+/* ========================= */
+/* Footer Styling */
+/* ========================= */
+footer {
+    background-color: rgba(47, 8, 124, 0.952);
+    color: wheat;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+/* ========================= */
+/* About Page Styling */
+/* ========================= */
+.about {
+    background-color: white;
+    padding: 40px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.about h1, .about h2 {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.about p {
+    color: rgba(66, 66, 66, 0.057);
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/* =========================== */
+/* Contact Page Styling */
+/* =========================== */
+.contact {
+    background-color: pink;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.contact h1 {
+    color: rgb(6, 6, 249);
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(162, 159, 159);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact button {
+    background-color: rgb(15, 15, 193);
+    color: wheat;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: rgb(133, 3, 81);
+}
+/* Navigation bar styling */
+nav {
+    background-color: rgb(5, 5, 154);
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: wheat;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* ========================= */
+/* Responsive Design Section */
+/* ========================= */
+@media (max-width:768px) {
+    body{
+        font-size: 14px;
+        padding: 10px;
+    }
+    nav a {
+        width: 100%;
+        display: block;
+        margin: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .resources, .join, .about, .contact {
+        padding: 20px;
+    }
+
+    .join button, .contact button {
+        width: 100%
+    }
+}
+
+.credits {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    margin-top: 10px;
+}
+
+/* ======================== */
+/* Testimonials Section */
+/* ======================== */
+.testimonials {
+    background-color: rgb(238, 233, 223);
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.testimonials h2 {
+    color: rgb(235, 157, 12);
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: rgb(243, 240, 235);
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    border-left: 5px solid rgb(250, 169, 19);
+    border-radius: 6px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: rgb(75, 70, 70);
+}
+
+.testimonial h4 {
+    color: rgb(248, 163, 163);
+    margin-top: 10px;
+}
